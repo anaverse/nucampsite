@@ -6,8 +6,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+     <!-- build:css css/main.css -->
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+     <link rel="stylesheet" href="css/styles.css" />
+     <!-- endbuild -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
 
     <title>NuCamp: A Better Way To Camp</title>
 </head>
@@ -36,7 +41,7 @@
     <div>
         <h2>Our Community Partners</h2>
         <h3>Bootstrap Outfitters</h3>
-        <p>Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
+        <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
     </div>
 
     <footer>
@@ -44,7 +49,7 @@
             <h5>Links</h5>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="aboutus.html">About</a></li>
                 <li><a href="#">Sites</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -62,9 +67,12 @@
         </div>
     </footer>
   <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
 
 </body>
 
