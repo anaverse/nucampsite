@@ -31,7 +31,7 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="mt-4 col col-md-4 col-xl-2">
-                    <a role="button" class="btn btn-lg btn-info" href="#reserveForm" >Reserve Campsite</a>
+                    <a role="button" class="btn btn-info" href="#reserveForm" >Reserve Campsite</a>
                 </div>
           
             </div>
@@ -95,7 +95,7 @@
         </div>
 
         <div class="row">
-            <!-- missing row-content class -->
+            <!-- row class -->
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Our Community Partners</h2>
             </div>
@@ -112,8 +112,8 @@
         </div>
 
 
-        <div class="row ">
-            <!-- missing row-content class -->
+        <div class="row row-content">
+            <!-- row class -->
             <div class="col col-sm-6 mx-auto">
                 <div class="card">
                     <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
@@ -124,7 +124,7 @@
                                 <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
                                 <div class="col">
                                     <select class="form-control" name="numCampers" id="numCampers">
-                                        <!-- 2.8.3.1: Give the first <option> element the text content of "Select..." -->
+                                    
                                         <option selected>Select</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
@@ -138,8 +138,7 @@
 
                             <div class="row form-group">
                                 <label for="date" class="col-sm-6 col-form-label">Date</label>
-                                <div class="col col-sm-6">     <!-- Why do I need col-sm-6 here when I didn't need it for the select drop down -->
-                                    <!-- removing col-sm-6 on firefox had no affect for me - it worked the same either way when on XS viewport -->
+                                <div class="col col-sm-6">    
                                 <input class="form-control" type="date" id="date" name="date" />
                                 </div>
                             </div>
