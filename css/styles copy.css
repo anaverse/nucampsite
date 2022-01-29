@@ -1,0 +1,122 @@
+body {
+    font-family: "Open Sans", sans-serif; }
+  
+  h1, h2, h3 {
+    font-family: "Lobster", cursive; }
+  
+  h2 {
+    color: #244441; }
+  
+  header h2 {
+    color: #ffffff; }
+  
+  .jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #242424, #9a572d, #bb9236);
+    color: white; }
+  
+  .navbar {
+    background-color: #244441; }
+  
+  .carousel {
+    border: solid #244441; }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); }
+  
+  #carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100; }
+  
+  .row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px; }
+  
+  .site-footer {
+    background-image: linear-gradient(#9a572d, #bb9236);
+    padding: 20px 0; }
+  
+  #reserveModal .modal-header {
+    background-color: inherit;
+    color: rgb(0, 0, 0); }
+  
+  #loginModal .modal-header {
+    background-color: #244441;
+    color: white; }
+
+    
+  a, a:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:link {
+    color: inherit;
+    
+  }
+
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #244441;
+}
+
+24
+
+.img-thumbnail {
+width: 100%;
+height: 120vh;
+object-fit: cover;
+}
+
+.card-body {
+box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2) ;
+}
+
+
+.card-title {
+font-size: 28px;
+
+}
+
+.card-subtitle {
+  font-size: 22px;
+}
+
+
+
+
+
+.logo {
+box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.3);
+
+}
+
+.card-header {
+color: #244441;
+
+}
+
+.card-header {
+  background-color: #244441;
+}
+
+.btn {
+  background-color: #244441;
+  border-color: #244441;
+}
+.bg-info{
+  color: #244441;
+}
+
+.btn-link {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #ffffff00;
+  
+}
